@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+    .main-horizontal-container {
+        display: flex;
+        flex: 1;
+
+        .viewport {
+            flex: 1;
+        }
+    }
+}

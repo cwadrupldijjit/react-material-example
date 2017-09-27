@@ -1,0 +1,27 @@
+html,
+body,
+#root,
+.App {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .input-box {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-bottom: .3em;
+        }
+    }
+}

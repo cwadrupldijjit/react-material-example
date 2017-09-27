@@ -1,0 +1,28 @@
+.topic {
+    display: flex;
+    flex-direction: row;
+    
+    &.expanded {
+        > .left-padding .carat {
+            transform: rotate(90deg);
+        }
+    }
+    
+    .left-padding {
+        width: 1em;
+    }
+    
+    .topic-list {
+        padding: 0;
+    }
+    
+    .carat {
+        cursor: pointer;
+        display: inline-block;
+        transition: transform linear 75ms;
+    }
+    
+    h5 {
+        margin: 0;
+    }
+}
